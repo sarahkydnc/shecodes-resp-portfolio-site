@@ -1,0 +1,19 @@
+:root {
+  --header-font: "Krona One", sans-serif;
+  --body-font: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+body {
+  background-color: antiquewhite;
+  padding: 10px 20px;
+}
+
+h1 {
+  color: chocolate;
+  font-family: var(--header-font);
+}
+
+p {
+  font-family: var(--body-font);
+  font-weight: 400;
+}
