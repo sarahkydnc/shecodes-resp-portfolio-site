@@ -4,31 +4,37 @@
 }
 
 body {
-  background-color: antiquewhite;
+  background-color: #fff;
 }
 
 h1 {
-  color: white;
+  color: #fff;
   font-family: var(--header-font);
   font-size: 72px;
 }
 
 h2 {
-  color: white;
+  color: #fff;
   font-family: var(--body-font);
   font-size: 48px;
   font-weight: 400;
 }
 
-p {
+p,
+.nav-link {
   font-family: var(--body-font);
   font-weight: 300;
 }
 
+.navbar-brand {
+  margin-left: 40px;
+  font-family: var(--header-font);
+}
+
 .home-hero {
-  position: fixed;
+  position: absolute;
   bottom: 500px;
-  left: 75px;
+  left: 50px;
   text-align: left;
 }
 
@@ -38,7 +44,7 @@ p {
 
 .discover-link {
   text-decoration: none;
-  color: white;
+  color: #fff;
   font-family: var(--body-font);
   font-size: 24px;
   font-weight: 100;
@@ -48,4 +54,12 @@ p {
   text-decoration: underline;
   color: coral;
   cursor: pointer;
+}
+
+.site-footer {
+  position: absolute;
+  bottom: -170px;
+  left: 40px;
+  color: #fff;
+  font-size: 12px;
 }
