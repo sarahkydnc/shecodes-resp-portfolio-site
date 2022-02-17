@@ -16,7 +16,7 @@ h1 {
 h2 {
   color: #fff;
   font-family: var(--body-font);
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 400;
 }
 
@@ -46,7 +46,7 @@ p,
   text-decoration: none;
   color: #fff;
   font-family: var(--body-font);
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 100;
 }
 
