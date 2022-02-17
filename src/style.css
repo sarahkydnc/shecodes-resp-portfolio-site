@@ -5,17 +5,18 @@
 
 body {
   background-color: antiquewhite;
-  padding: 10px 20px;
 }
 
 h1 {
-  color: navy;
+  color: white;
   font-family: var(--header-font);
+  font-size: 72px;
 }
 
 h2 {
-  color: coral;
+  color: white;
   font-family: var(--body-font);
+  font-size: 48px;
   font-weight: 400;
 }
 
@@ -25,18 +26,26 @@ p {
 }
 
 .home-hero {
+  position: relative;
+  bottom: 850px;
+  left: 75px;
   text-align: left;
+}
+
+.home-background {
+  width: 100%;
 }
 
 .discover-link {
   text-decoration: none;
-  color: coral;
+  color: white;
   font-family: var(--body-font);
+  font-size: 24px;
   font-weight: 100;
 }
 
 .discover-link:hover {
   text-decoration: underline;
-  color: indigo;
+  color: coral;
   cursor: pointer;
 }
