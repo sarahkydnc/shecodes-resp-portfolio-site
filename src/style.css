@@ -1,6 +1,6 @@
 :root {
   --header-font: "Krona One", sans-serif;
-  --body-font: "Zen Kaku Gothic Antique", sans-serif;
+  --body-font: "DM Sans", sans-serif;
 }
 
 body {
@@ -17,13 +17,13 @@ h2 {
   color: #fff;
   font-family: var(--body-font);
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 p,
 .nav-link {
   font-family: var(--body-font);
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .navbar-brand {
@@ -51,7 +51,8 @@ p,
   color: #fff;
   font-family: var(--body-font);
   font-size: 20px;
-  font-weight: 100;
+  font-style: italic;
+  font-weight: 400;
 }
 
 .discover-link:hover,
@@ -66,7 +67,9 @@ p,
   bottom: -170px;
   left: 40px;
   color: #fff;
+  font-family: var(--body-font);
   font-size: 12px;
+  font-weight: 400;
 }
 
 .footer-link {
