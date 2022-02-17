@@ -31,6 +31,10 @@ p,
   font-family: var(--header-font);
 }
 
+.menu-tabs {
+  margin-right: 40px;
+}
+
 .home-hero {
   position: absolute;
   bottom: 500px;
@@ -62,4 +66,9 @@ p,
   left: 40px;
   color: #fff;
   font-size: 12px;
+}
+
+.contact-icons {
+  display: inline;
+  color: #fff;
 }
