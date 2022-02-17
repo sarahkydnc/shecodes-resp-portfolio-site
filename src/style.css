@@ -9,11 +9,34 @@ body {
 }
 
 h1 {
-  color: chocolate;
+  color: navy;
   font-family: var(--header-font);
+}
+
+h2 {
+  color: coral;
+  font-family: var(--body-font);
+  font-weight: 400;
 }
 
 p {
   font-family: var(--body-font);
-  font-weight: 400;
+  font-weight: 300;
+}
+
+.home-hero {
+  text-align: left;
+}
+
+.discover-link {
+  text-decoration: none;
+  color: coral;
+  font-family: var(--body-font);
+  font-weight: 100;
+}
+
+.discover-link:hover {
+  text-decoration: underline;
+  color: indigo;
+  cursor: pointer;
 }
