@@ -26,8 +26,8 @@ p {
 }
 
 .home-hero {
-  position: relative;
-  bottom: 900px;
+  position: fixed;
+  bottom: 500px;
   left: 75px;
   text-align: left;
 }
