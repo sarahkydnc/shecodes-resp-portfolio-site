@@ -163,17 +163,11 @@ h4 {
 
 .site-footer {
   margin: 30px;
-  color: #fff;
+  color: #e37239;
   font-family: var(--body-font);
   font-size: 12px;
   font-weight: 400;
   text-align: center;
-}
-
-.footer-link {
-  color: #ffcc66;
-  font-weight: 700;
-  text-decoration: none;
 }
 
 #sk-logo {
