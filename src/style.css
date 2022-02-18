@@ -1,6 +1,60 @@
 :root {
-  --header-font: "Krona One", sans-serif;
-  --body-font: "KoHo", sans-serif;
+  --header-font: "Crafter-Rough", sans-serif;
+  --body-font: "Benton-Sans", sans-serif;
+}
+
+@font-face {
+  font-family: "Crafter-Rough";
+  src: url("/media/fonts/Crafter-Rough.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Benton-Sans";
+  src: url("/media/fonts/Benton-Sans/BentonSans-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Benton-Sans";
+  src: url("/media/fonts/Benton-Sans/BentonSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Benton-Sans";
+  src: url("/media/fonts/Benton-Sans/BentonSans-Medium.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Benton-Sans";
+  src: url("/media/fonts/Benton-Sans/BentonSans-Regular.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Benton-Sans";
+  src: url("/media/fonts/Benton-Sans/BentonSans-Book.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Benton-Sans";
+  src: url("/media/fonts/Benton-Sans/BentonSans-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Benton-Sans";
+  src: url("/media/fonts/Benton-Sans/BentonSans-ExtraLight.ttf")
+    format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Benton-Sans";
+  src: url("/media/fonts/Benton-Sans/BentonSans-Thin.ttf") format("truetype");
+  font-weight: 100;
 }
 
 body {
@@ -10,20 +64,20 @@ body {
 h1 {
   color: #fff;
   font-family: var(--header-font);
-  font-size: 72px;
+  font-size: 100px;
 }
 
 h2 {
   color: #fff;
   font-family: var(--body-font);
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 p,
 .nav-link {
   font-family: var(--body-font);
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .navbar-brand {
@@ -37,7 +91,7 @@ p,
 
 .home-hero {
   position: absolute;
-  bottom: 500px;
+  bottom: 875px;
   left: 50px;
   text-align: left;
 }
@@ -52,7 +106,7 @@ p,
   font-family: var(--body-font);
   font-size: 20px;
   font-style: italic;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .discover-link:hover,
