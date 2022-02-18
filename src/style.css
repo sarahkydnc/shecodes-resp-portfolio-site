@@ -144,9 +144,8 @@ h4 {
 .feature-category {
   color: #fff;
   font-family: var(--body-font);
-  font-size: 16px;
-  font-style: italic;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 100;
   text-align: center;
 }
 
@@ -155,10 +154,38 @@ h4 {
   margin: 0 auto;
   color: #fff;
   font-family: var(--body-font);
-  font-size: 14px;
-  font-weight: 100;
+  font-size: 20px;
+  font-weight: 600;
   text-align: center;
   text-decoration: none;
+}
+
+.hover-image {
+  position: relative;
+}
+
+.hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #e37239;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.hover-overlay--solid {
+  background: #e37239;
+}
+
+.hover-overlay:hover {
+  opacity: 0.5;
 }
 
 .site-footer {
