@@ -1,6 +1,6 @@
 :root {
   --header-font: "Krona One", sans-serif;
-  --body-font: "DM Sans", sans-serif;
+  --body-font: "KoHo", sans-serif;
 }
 
 body {
@@ -58,7 +58,7 @@ p,
 .discover-link:hover,
 .footer-link:hover {
   text-decoration: underline;
-  color: coral;
+  color: #e37239;
   cursor: pointer;
 }
 
@@ -76,4 +76,8 @@ p,
   color: #fff;
   font-weight: bold;
   text-decoration: none;
+}
+
+#sk-logo {
+  max-width: 125px;
 }
