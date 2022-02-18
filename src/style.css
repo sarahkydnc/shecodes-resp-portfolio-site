@@ -64,13 +64,13 @@ body {
 h1 {
   color: #fff;
   font-family: var(--header-font);
-  font-size: 100px;
+  font-size: 80px;
 }
 
 h2 {
   color: #fff;
   font-family: var(--body-font);
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 300;
 }
 
