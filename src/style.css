@@ -90,11 +90,6 @@ h4 {
   text-align: center;
 }
 
-.navbar {
-  position: sticky;
-  top: 0;
-}
-
 .nav-link {
   font-family: var(--body-font);
   font-weight: 500;
