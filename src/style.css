@@ -187,6 +187,20 @@ h4 {
   opacity: 0.5;
 }
 
+.scroll-up-button {
+  display: block;
+  margin: 0 auto;
+  color: #e37239;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.scroll-up-button:hover {
+  color: #e37239;
+  cursor: pointer;
+}
+
 .site-footer {
   margin: 30px;
   color: #e37239;
