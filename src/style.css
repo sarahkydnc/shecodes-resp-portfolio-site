@@ -94,7 +94,7 @@ hr {
   display: block;
   margin: 0 auto;
   max-width: 95%;
-  color: #fff;
+  color: #e37239;
 }
 
 .nav-link {
@@ -223,7 +223,8 @@ hr {
   border-radius: 50px;
 }
 
-.skill-name {
+.skill-name,
+.experience-info {
   color: #fff;
   font-family: var(--body-font);
   font-size: 14px;
@@ -259,7 +260,7 @@ hr {
 }
 
 #category-design {
-  border-right: 1px solid #e37239;
+  border-right: 1px solid rgba(227, 114, 57, 0.25);
 }
 
 @media (min-width: 0) and (max-width: 576px) {
