@@ -231,6 +231,16 @@ hr {
   font-weight: 200;
 }
 
+.connect a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.connect a:hover {
+  color: #e37239;
+  text-decoration: underline;
+}
+
 .scroll-up-button {
   display: block;
   margin: 0 auto;
