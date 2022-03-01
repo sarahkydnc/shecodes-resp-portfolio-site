@@ -36,7 +36,7 @@
 @font-face {
   font-family: "Benton-Sans";
   src: url("/media/fonts/Benton-Sans/BentonSans-Light.ttf") format("truetype");
-  font-weight: 300;
+  font-weight: 330;
 }
 
 @font-face {
@@ -71,7 +71,7 @@ h2 {
   color: #fff;
   font-family: var(--body-font);
   font-size: 44px;
-  font-weight: 300;
+  font-weight: 330;
 }
 
 h3 {
@@ -195,22 +195,24 @@ hr {
 }
 
 .portrait-shot {
-  max-width: 300px;
-  max-height: 300px;
+  display: block;
+  margin: 0 auto;
+  max-width: 330px;
+  max-height: 330px;
   border: 6px solid #fff;
-  border-radius: 300px;
+  border-radius: 330px;
 }
 
 .intro-text-column {
   margin: 20px 40px;
-  max-width: 900px;
+  max-width: 1000px;
 }
 
 .intro-paragraph {
   color: #fff;
   font-family: var(--body-font);
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 330;
 }
 
 .skill-category {
