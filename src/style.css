@@ -148,8 +148,7 @@ hr {
 }
 
 .discover-link:hover,
-.footer-link:hover,
-.feature-link:hover {
+.footer-link:hover {
   text-decoration: underline;
   color: #e37239;
   cursor: pointer;
@@ -172,6 +171,11 @@ hr {
   font-weight: 600;
   text-align: center;
   text-decoration: none;
+}
+
+.feature-link:hover {
+  color: #fff;
+  cursor: pointer;
 }
 
 .hover-image {
