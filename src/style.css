@@ -321,6 +321,10 @@ hr {
     text-align: center;
   }
 
+  .connect {
+    max-width: 400px;
+  }
+
   .footer-fineprint {
     font-size: 10px;
   }
