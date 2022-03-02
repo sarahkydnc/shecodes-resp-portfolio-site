@@ -71,7 +71,7 @@ h2 {
   color: #fff;
   font-family: var(--body-font);
   font-size: 44px;
-  font-weight: 330;
+  font-weight: 300;
 }
 
 h3 {
@@ -86,6 +86,14 @@ h4 {
   color: #e37239;
   font-family: var(--body-font);
   font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+}
+
+h5 {
+  color: #e37239;
+  font-family: var(--body-font);
+  font-size: 20px;
   font-weight: 700;
   text-align: center;
 }
@@ -233,6 +241,14 @@ hr {
   font-weight: 200;
 }
 
+.connect {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #e37239;
+  border-radius: 20px;
+  max-width: 600px;
+}
+
 .connect a {
   color: #fff;
   text-decoration: none;
@@ -258,7 +274,7 @@ hr {
   cursor: pointer;
 }
 
-.site-footer {
+.footer-fineprint {
   margin: 30px;
   color: #fff;
   font-family: var(--body-font);
@@ -305,7 +321,7 @@ hr {
     text-align: center;
   }
 
-  .site-footer {
+  .footer-fineprint {
     font-size: 10px;
   }
 
@@ -350,7 +366,7 @@ hr {
     left: 50px;
   }
 
-  .site-footer {
+  .footer-fineprint {
     font-size: 10px;
   }
 
