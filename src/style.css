@@ -319,14 +319,24 @@ hr {
     font-size: 10px;
   }
 
+  .intro-header {
+    font-size: 48px;
+    text-align: center;
+  }
+
   .intro-text-column {
     position: relative;
     top: -60px;
     text-align: center;
   }
 
+  .skill-category {
+    transform: scale(0.85);
+    transform-origin: top;
+  }
+
   .connect {
-    max-width: 400px;
+    max-width: 325px;
   }
 
   .footer-fineprint {
