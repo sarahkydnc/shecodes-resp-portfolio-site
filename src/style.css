@@ -278,13 +278,21 @@ hr {
   cursor: pointer;
 }
 
-.footer-fineprint {
-  margin: 30px;
+.footer-fineprint,
+.footer-link {
   color: #fff;
   font-family: var(--body-font);
   font-size: 12px;
-  font-weight: 400;
   text-align: center;
+}
+
+.footer-fineprint {
+  margin: 30px;
+  font-weight: 400;
+}
+
+.footer-link {
+  font-weight: 700;
 }
 
 #sk-logo {
