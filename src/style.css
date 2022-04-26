@@ -162,22 +162,6 @@ hr {
   text-align: center;
 }
 
-.feature-link {
-  display: block;
-  margin: 0 auto;
-  color: #fff;
-  font-family: var(--body-font);
-  font-size: 20px;
-  font-weight: 600;
-  text-align: center;
-  text-decoration: none;
-}
-
-.feature-link:hover {
-  color: #fff;
-  cursor: pointer;
-}
-
 .hover-image {
   position: relative;
 }
@@ -188,7 +172,7 @@ hr {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.5);
   color: #e37239;
   display: flex;
   flex-direction: column;
