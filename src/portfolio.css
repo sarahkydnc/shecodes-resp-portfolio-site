@@ -1,0 +1,25 @@
+.project-main {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.project-main-image {
+  display: block;
+  margin: 0 auto;
+}
+
+.project-title {
+  color: #e37239;
+  font-family: var(--header-font);
+  font-size: 36px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.project-description {
+  color: #fff;
+  font-family: var(--body-font);
+  font-size: 14px;
+  font-weight: 200;
+}
