@@ -4,7 +4,155 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/3a9883bbdc.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="icon"
+      href="/media/favicons/sk_logo-final_2021-2_SQ.png"
+      type="image/icon type"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="/src/portfolio.css" />
+
+    <meta name="description" content="Sarah Kaydence | Work — 13 Honey" />
     <title>13 Honey | Sarah Kaydence</title>
   </head>
-  <body></body>
+
+  <body>
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-dark"
+      style="background-color: #000"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html" title="Home page">
+          <img
+            src="/./media/favicons/sk_logo-final_2021-2_reddamask.png"
+            alt="Sarah Kaydence - Logo"
+            id="sk-logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end menu-tabs"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="/./about.html"
+              title="About page"
+              >About</a
+            >
+            <a class="nav-link" href="/./work.html" title="Work page">Work</a>
+            <a class="nav-link" href="/./connect.html" title="Connect page"
+              >Connect</a
+            >
+            <a
+              class="nav-link"
+              href="https://www.instagram.com/sarahkaydence/"
+              target="_blank"
+              title="Instagram link"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              class="nav-link"
+              href="https://www.linkedin.com/in/sarahkaydence/"
+              target="_blank"
+              title="LinkedIn link"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a
+              class="nav-link"
+              href="https://github.com/sarahkydnc/shecodes-resp-portfolio-site"
+              target="_blank"
+              title="GitHub repository link"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="project-main mb-5">
+      <div class="container-fluid">
+        <img
+          src="/media/projects/13-honey/13-honey_page-cover.jpg"
+          alt="Cover image of 13 Honey subpage"
+          class="project-main-image img-fluid mt-5 rounded"
+        />
+
+        <div class="row mt-5">
+          <div class="col-sm-6">
+            <h3 class="project-title">13 Honey</h3>
+          </div>
+
+          <div class="col-sm-6">
+            <p class="project-description">
+              <span class="fw-bold">13 Honey </span>is a Singaporean honey
+              brand, of which all of their honey products are harvested &
+              produced from their very own bee farm. From beekeeping to
+              distribution, each process is carried out to the highest
+              standards — to ensure that their honey is kept in its most
+              excellent condition all the way to consumers.
+            </p>
+            <br />
+            <a
+              href="https://www.instagram.com/13honeysg/"
+              target="_blank"
+              title="Link to 13 Honey's Instagram"
+              class="project-button text-decoration-none fw-bold"
+              >@13honeysg</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer p-3">
+      <div class="back-to-top mt-4">
+        <a href="#" title="Back to top" class="scroll-up-button">
+          Back to top&nbsp; <i class="fas fa-angle-double-up"></i>
+        </a>
+      </div>
+      <p class="footer-fineprint">
+        This website was built from scratch by Sarah Kaydence © as her
+        <a
+          href="https://www.shecodes.io/responsive"
+          target="_blank"
+          title="SheCodes Workshops - SheCodes Responsive"
+          class="text-decoration-none footer-link"
+          >SheCodes Responsive</a
+        >
+        final project
+      </p>
+    </footer>
+  </body>
 </html>
