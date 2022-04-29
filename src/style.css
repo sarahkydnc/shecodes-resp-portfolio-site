@@ -247,6 +247,7 @@ hr {
 .connect a {
   color: #fff;
   text-decoration: none;
+  transition: all 200ms ease-in-out;
 }
 
 .connect a:hover {
@@ -262,6 +263,7 @@ hr {
   text-align: center;
   text-decoration: none;
   text-transform: capitalize;
+  transition: all 200ms ease-in-out;
 }
 
 .scroll-up-button:hover {
@@ -284,6 +286,7 @@ hr {
 
 .footer-link {
   font-weight: 700;
+  transition: all 200ms ease-in-out;
 }
 
 #sk-logo {
