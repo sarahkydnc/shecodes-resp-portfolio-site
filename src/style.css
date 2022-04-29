@@ -105,6 +105,10 @@ hr {
   color: #e37239;
 }
 
+img {
+  pointer-events: none;
+}
+
 .nav-link {
   font-family: var(--body-font);
   font-weight: 500;
