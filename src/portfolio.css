@@ -11,9 +11,9 @@
 
 .project-title {
   color: #e37239;
-  font-family: var(--header-font);
+  font-family: var(--body-font);
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 700;
   text-align: left;
 }
 
