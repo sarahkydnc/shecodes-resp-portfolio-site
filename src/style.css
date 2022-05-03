@@ -248,12 +248,14 @@ img {
   max-width: 600px;
 }
 
+.intro-paragraph a,
 .connect a {
   color: #fff;
   text-decoration: none;
   transition: all 200ms ease-in-out;
 }
 
+.intro-paragraph a:hover,
 .connect a:hover {
   color: #e37239;
   text-decoration: underline;
