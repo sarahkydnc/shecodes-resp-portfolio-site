@@ -9,9 +9,52 @@
   font-weight: 900;
 }
 
+@font-face {
+  font-family: "Benton-Sans";
+  src: url("/media/fonts/Benton-Sans/BentonSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Benton-Sans";
+  src: url("/media/fonts/Benton-Sans/BentonSans-Medium.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Benton-Sans";
+  src: url("/media/fonts/Benton-Sans/BentonSans-Regular.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Benton-Sans";
+  src: url("/media/fonts/Benton-Sans/BentonSans-Book.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Benton-Sans";
+  src: url("/media/fonts/Benton-Sans/BentonSans-Light.ttf") format("truetype");
+  font-weight: 330;
+}
+
+@font-face {
+  font-family: "Benton-Sans";
+  src: url("/media/fonts/Benton-Sans/BentonSans-ExtraLight.ttf")
+    format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Benton-Sans";
+  src: url("/media/fonts/Benton-Sans/BentonSans-Thin.ttf") format("truetype");
+  font-weight: 100;
+}
+
 :root {
-  --header-font: "Outfit", sans-serif;
-  --body-font: "IBM Plex Sans", sans-serif;
+  --header-font: "Crafter-Rough", sans-serif;
+  --body-font: "Benton-Sans", sans-serif;
 }
 
 body {
